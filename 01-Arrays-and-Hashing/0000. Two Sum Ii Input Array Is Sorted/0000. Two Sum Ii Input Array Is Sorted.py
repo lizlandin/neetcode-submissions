@@ -1,0 +1,1 @@
+                right -= 1            elif suma < target:            if suma > target:            suma = numbers[left] + numbers[right]        while left < right:        right = len(numbers) - 1        left = 0    def twoSum(self, numbers: list[int], target: int) -> list[int]:        respuesta = []class Solution:                left +=1
