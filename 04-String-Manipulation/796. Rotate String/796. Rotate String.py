@@ -4,7 +4,7 @@
 4        letras = list(s)
 5        meta = list(goal)
 6
-7        for char in letras:
+7        for i in range(len(letras)):
 8            if letras != meta:
 9                letras.append(letras[0])
 10                letras.pop(0)
